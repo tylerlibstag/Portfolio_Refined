@@ -8,7 +8,7 @@
 
 .logo{
   position: absolute;
-  display: block;
+  padding:auto;
   margin-top: 3px;
   width:250px;
   height:190px;
@@ -68,7 +68,8 @@
   margin-left: auto;
   margin-right: auto;
   border-width: 3px;
- 
+  border: 10px solid transparent;
+
   border-color: pink;
   border-radius: 50%;
 }
@@ -169,27 +170,84 @@ input[type=checkbox]:checked ~ div.curtain__panel--left {
 input[type=checkbox]:checked ~ div.curtain__panel--right {
   transform: translateX(0);
 }
+@media only screen and (max-width: 1480px){
+  [class*="col-"] {
+    width: 100%;
+  }
+  .logo{
+    position: relative;
+  }
+}
 
 @media only screen and (max-width: 980px) {
   [class*="col-"] {
       width: 100%;
     }
+    
+    .logo{
+      position: relative;
+    }
+    .me{
+      width:175px;
+      height:175px;
+    }
+    
+    
    
+  
+    
     
  
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   [class*="col-"] {
       width: 100%;
     }
     .a{
       font-size:50px;
     }
+    .me{
+      width:150px;
+      height:150px;
+    }
+    .curtain__wrapper{
+      width:0%;
+      height:0%;
+    }
+    .curtain__panel{
+      width:0%;
+      height:0%;
+    }
+    .curtain{
+      width:0%;
+      height:0%;
+    }
+    .header3{
+      display:none;
+    }
+    .header{
+    
+      
+      font-size: 50px;
+    }
+    .links{
+      position:fixed;
+    }
+    .logo{
+      position:relative;
+      width:125px;
+      height:95px;
+    }
+    
+    
+
   
   }
   
+ 
+  
 
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 640px) {
       [class*="col-"] {
           width: 100%;
         }
@@ -205,6 +263,15 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
           
           
       }
+      .me{
+        width: 50px;
+        height: 50px;
+      }
+      .aboutme{
+        padding-left: 15px;
+      }
+      
+   
   }
  
 
