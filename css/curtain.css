@@ -86,7 +86,7 @@
 
 .curtain__panel--left {
   
-  background-image:url('pattern_website_2_left.png');
+  background-image:url('../images/pattern_website_2_left.png');
   width:50%;
   height:100%;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@
 /* Slide the panel to the right out of the container */
 .curtain__panel--right {
   
-  background-image:url('pattern_website_2_right.png');
+  background-image:url('../images/pattern_website_2_right.png');
   width:50%;
   height:100%;
   background-repeat: no-repeat;
