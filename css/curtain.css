@@ -32,7 +32,7 @@
   height: 100%;
 }
 .header{
-  padding: 16px;
+  
   text-align:center;
   font-size: 100px;
   letter-spacing: 3px;
@@ -177,9 +177,11 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
   .logo{
     position: relative;
   }
+  
+  
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1300px) {
   [class*="col-"] {
       width: 100%;
     }
@@ -191,6 +193,7 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
       width:175px;
       height:175px;
     }
+    
     
     
    
