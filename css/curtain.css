@@ -178,7 +178,7 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
     position: relative;
   }
   .header{
-    text-align: right;
+    text-align: center;
   }
   
   
@@ -236,7 +236,7 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
     }
     .header{
     
-      
+      text-align: center;
       font-size: 50px;
     }
     .links{
@@ -278,6 +278,9 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
       }
       .aboutme{
         padding-left: 15px;
+      }
+      .header{
+        text-align: center;
       }
       
    
