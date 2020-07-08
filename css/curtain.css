@@ -177,11 +177,14 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
   .logo{
     position: relative;
   }
+  .header{
+    text-align: right;
+  }
   
   
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 980px) {
   [class*="col-"] {
       width: 100%;
     }
@@ -192,6 +195,9 @@ input[type=checkbox]:checked ~ div.curtain__panel--right {
     .me{
       width:175px;
       height:175px;
+    }
+    .header{
+      text-align: center;
     }
     
     
